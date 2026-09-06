@@ -53,6 +53,12 @@
   const state = {
     payload: null,
     filters: {
+      // Defaults to "Active" only (last N days, per the payload's own
+      // recency_distribution) — older leads are still in the data, just
+      // filtered out until the "Aged" chip is clicked on. Distinct from
+      // the score-based "Archive" tier below, which is about lead
+      // quality, not staleness.
+      recency: new Set(["Active"]),
       tier: new Set(),
       pattern: new Set(),
       attribute: new Set(),
@@ -179,6 +185,11 @@
 
   function applyFilters(rows) {
     let out = rows;
+    if (state.filters.recency.size)
+      // Fall back to "Active" for any row from a payload published before
+      // this field existed, so an old cached payload never renders as an
+      // empty table.
+      out = out.filter((r) => state.filters.recency.has(r.display_recency_bucket || "Active"));
     if (state.filters.tier.size)
       out = out.filter((r) => state.filters.tier.has(r.display_tier));
     if (state.filters.pattern.size)
@@ -247,6 +258,12 @@
     const records = state.payload.records;
 
     const axes = [
+      {
+        elId: "chips-recency",
+        axis: "recency",
+        keys: Object.keys(state.payload.recency_distribution || {}),
+        countFn: (k) => state.payload.recency_distribution[k] || 0,
+      },
       {
         elId: "chips-tier",
         axis: "tier",
@@ -529,6 +546,9 @@
   function wireEvents() {
     document.getElementById("reset-filters").addEventListener("click", () => {
       Object.values(state.filters).forEach((s) => s.clear());
+      // Reset returns to the default VIEW, not an unfiltered table — that
+      // default is "Active" leads only (last N days), same as first load.
+      state.filters.recency.add("Active");
       state.precannedView = null;
       render();
     });
