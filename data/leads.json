@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T14:07:27Z",
+  "generated_at": "2026-09-27T19:19:07Z",
   "build_label": "PARTIAL_BUILD",
   "mode": "incremental",
   "county": "Richland",
@@ -33,9 +33,9 @@
     "3": 1
   },
   "score_tier_distribution": {
-    "Archive": 5,
+    "Archive": 6,
     "Hot": 1,
-    "Low": 69,
+    "Low": 68,
     "Strong": 50,
     "Workable": 343
   },
@@ -1228,7 +1228,7 @@
     },
     {
       "lead_id": "lead_parcel_23406-01-19",
-      "scored_lead_id": "scored_01ab94ad4972a859",
+      "scored_lead_id": "scored_28ff822abffd4441",
       "primary_parcel_id": "23406-01-19",
       "display_address": "1073 GREY DUCK LN, BLYTHEWOOD, SC",
       "display_address_street": "1073 GREY DUCK LN",
@@ -1237,8 +1237,8 @@
       "display_address_zip": "29016",
       "display_owner": "BOOKER, CATINA MICHELLE",
       "display_owner_type": "INDIVIDUAL",
-      "display_score": 35,
-      "display_tier": "Low",
+      "display_score": 30,
+      "display_tier": "Archive",
       "display_patterns": [
         "lien"
       ],
@@ -1277,10 +1277,6 @@
         {
           "factor": "base_MECHANICS_LIEN",
           "delta": 30
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
@@ -21231,7 +21227,7 @@
     },
     {
       "lead_id": "lead_unresolved_2026042975",
-      "scored_lead_id": "scored_0f5598d7309fe530",
+      "scored_lead_id": "scored_a2ee491457ee5eaa",
       "primary_parcel_id": null,
       "display_address": "",
       "display_address_street": null,
@@ -21240,7 +21236,7 @@
       "display_address_zip": null,
       "display_owner": "ADEYEMI, ADEWALE A",
       "display_owner_type": "INDIVIDUAL",
-      "display_score": 60,
+      "display_score": 55,
       "display_tier": "Workable",
       "display_patterns": [
         "tax"
@@ -21280,10 +21276,6 @@
         {
           "factor": "base_FEDERAL_TAX_LIEN",
           "delta": 55
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
@@ -21297,7 +21289,7 @@
     },
     {
       "lead_id": "lead_unresolved_2026042976",
-      "scored_lead_id": "scored_4be1b9979481fee6",
+      "scored_lead_id": "scored_4fe2763882a9fa50",
       "primary_parcel_id": null,
       "display_address": "",
       "display_address_street": null,
@@ -21306,7 +21298,7 @@
       "display_address_zip": null,
       "display_owner": "LANN, BRIAN F",
       "display_owner_type": "INDIVIDUAL",
-      "display_score": 60,
+      "display_score": 55,
       "display_tier": "Workable",
       "display_patterns": [
         "tax"
@@ -21346,10 +21338,6 @@
         {
           "factor": "base_FEDERAL_TAX_LIEN",
           "delta": 55
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
@@ -21363,7 +21351,7 @@
     },
     {
       "lead_id": "lead_unresolved_2026042977",
-      "scored_lead_id": "scored_3c849d1323c58bb3",
+      "scored_lead_id": "scored_9d9401b63255956d",
       "primary_parcel_id": null,
       "display_address": "",
       "display_address_street": null,
@@ -21372,7 +21360,7 @@
       "display_address_zip": null,
       "display_owner": "WILSON, KIRK",
       "display_owner_type": "INDIVIDUAL",
-      "display_score": 60,
+      "display_score": 55,
       "display_tier": "Workable",
       "display_patterns": [
         "tax"
@@ -21412,10 +21400,6 @@
         {
           "factor": "base_FEDERAL_TAX_LIEN",
           "delta": 55
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
@@ -21429,7 +21413,7 @@
     },
     {
       "lead_id": "lead_unresolved_2026042978",
-      "scored_lead_id": "scored_138d601b5c391e43",
+      "scored_lead_id": "scored_ee755c69d9e2f927",
       "primary_parcel_id": null,
       "display_address": "",
       "display_address_street": null,
@@ -21438,7 +21422,7 @@
       "display_address_zip": null,
       "display_owner": "FRANKLIN, LINDA",
       "display_owner_type": "INDIVIDUAL",
-      "display_score": 60,
+      "display_score": 55,
       "display_tier": "Workable",
       "display_patterns": [
         "tax"
@@ -21478,10 +21462,6 @@
         {
           "factor": "base_FEDERAL_TAX_LIEN",
           "delta": 55
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
@@ -21495,7 +21475,7 @@
     },
     {
       "lead_id": "lead_unresolved_2026042979",
-      "scored_lead_id": "scored_777b52fe625f04c2",
+      "scored_lead_id": "scored_1354da5f64530f86",
       "primary_parcel_id": null,
       "display_address": "",
       "display_address_street": null,
@@ -21504,7 +21484,7 @@
       "display_address_zip": null,
       "display_owner": "COOGLER CONSTRUCTION INC",
       "display_owner_type": "ENTITY",
-      "display_score": 60,
+      "display_score": 55,
       "display_tier": "Workable",
       "display_patterns": [
         "tax"
@@ -21544,10 +21524,6 @@
         {
           "factor": "base_FEDERAL_TAX_LIEN",
           "delta": 55
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
@@ -21561,7 +21537,7 @@
     },
     {
       "lead_id": "lead_unresolved_2026042980",
-      "scored_lead_id": "scored_0898bbe808af5cc9",
+      "scored_lead_id": "scored_ca0055839d3ec8c6",
       "primary_parcel_id": null,
       "display_address": "",
       "display_address_street": null,
@@ -21570,7 +21546,7 @@
       "display_address_zip": null,
       "display_owner": "federal_tax_lien against unidentified party",
       "display_owner_type": "UNKNOWN",
-      "display_score": 60,
+      "display_score": 55,
       "display_tier": "Workable",
       "display_patterns": [
         "tax"
@@ -21610,10 +21586,6 @@
         {
           "factor": "base_FEDERAL_TAX_LIEN",
           "delta": 55
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
@@ -21630,7 +21602,7 @@
     },
     {
       "lead_id": "lead_unresolved_2026042984",
-      "scored_lead_id": "scored_0089d1281319de4b",
+      "scored_lead_id": "scored_ca58a9afe58af691",
       "primary_parcel_id": null,
       "display_address": "",
       "display_address_street": null,
@@ -21639,7 +21611,7 @@
       "display_address_zip": null,
       "display_owner": "federal_tax_lien against unidentified party",
       "display_owner_type": "UNKNOWN",
-      "display_score": 60,
+      "display_score": 55,
       "display_tier": "Workable",
       "display_patterns": [
         "tax"
@@ -21679,10 +21651,6 @@
         {
           "factor": "base_FEDERAL_TAX_LIEN",
           "delta": 55
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
