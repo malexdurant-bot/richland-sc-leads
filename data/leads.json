@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T19:19:07Z",
+  "generated_at": "2026-09-29T14:06:58Z",
   "build_label": "PARTIAL_BUILD",
   "mode": "incremental",
   "county": "Richland",
@@ -15784,7 +15784,7 @@
       "primary_source_urls": [
         "https://www7.richlandcountysc.gov/rodpublicviewer/viewer.aspx"
       ],
-      "display_recency_bucket": "Active"
+      "display_recency_bucket": "Aged"
     },
     {
       "lead_id": "lead_parcel_R23407-01-08",
@@ -21667,7 +21667,7 @@
     },
     {
       "lead_id": "lead_unresolved_2026043219",
-      "scored_lead_id": "scored_3fe39810f619c3af",
+      "scored_lead_id": "scored_9cca519405c3cec9",
       "primary_parcel_id": null,
       "display_address": "",
       "display_address_street": null,
@@ -21676,7 +21676,7 @@
       "display_address_zip": null,
       "display_owner": "WARR, ISHA YUMAKIA",
       "display_owner_type": "INDIVIDUAL",
-      "display_score": 60,
+      "display_score": 55,
       "display_tier": "Workable",
       "display_patterns": [
         "tax"
@@ -21716,10 +21716,6 @@
         {
           "factor": "base_FEDERAL_TAX_LIEN",
           "delta": 55
-        },
-        {
-          "factor": "recent_filing_within_30_days",
-          "delta": 5
         }
       ],
       "evidence_ids": [],
@@ -22323,7 +22319,7 @@
       "primary_source_urls": [
         "https://www7.richlandcountysc.gov/rodpublicviewer/viewer.aspx"
       ],
-      "display_recency_bucket": "Active"
+      "display_recency_bucket": "Aged"
     },
     {
       "lead_id": "lead_unresolved_2026046563",
@@ -22389,7 +22385,7 @@
       "primary_source_urls": [
         "https://www7.richlandcountysc.gov/rodpublicviewer/viewer.aspx"
       ],
-      "display_recency_bucket": "Active"
+      "display_recency_bucket": "Aged"
     },
     {
       "lead_id": "lead_unresolved_2026046717",
@@ -22455,7 +22451,7 @@
       "primary_source_urls": [
         "https://www7.richlandcountysc.gov/rodpublicviewer/viewer.aspx"
       ],
-      "display_recency_bucket": "Active"
+      "display_recency_bucket": "Aged"
     },
     {
       "lead_id": "lead_unresolved_2026CP4000891",
@@ -31955,7 +31951,7 @@
     }
   ],
   "recency_distribution": {
-    "Active": 110,
-    "Aged": 358
+    "Active": 106,
+    "Aged": 362
   }
 }
