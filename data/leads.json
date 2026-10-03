@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:23:01Z",
+  "generated_at": "2026-10-03T14:21:12Z",
   "build_label": "PARTIAL_BUILD",
   "mode": "incremental",
   "county": "Richland",
@@ -7820,7 +7820,7 @@
       "display_lead_status": "APPROVED_FOR_DASHBOARD",
       "display_assessed_value": 127900.0,
       "display_last_sale_price": 5.0,
-      "display_last_sale_date": "2016-05-25",
+      "display_last_sale_date": "2026-06-14",
       "display_year_built": 1986,
       "display_is_absentee_owner": null,
       "display_is_out_of_state_owner": null,
